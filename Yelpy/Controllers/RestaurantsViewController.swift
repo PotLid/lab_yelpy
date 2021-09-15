@@ -41,11 +41,16 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
     
     // Tells TableView how many cells to have
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return restaurantsArray.count
     }
     
 
     // Populates each cell in TableView
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let currentCell = tableView.dequeueReusableCell(withIdentifier: "RestaurantCell") as! RestaurantCell
+        let restaurant = restaurantsArray[indexPath.row]
+        currentCell.cell = restaurant
+        return currentCell
     }
     
 

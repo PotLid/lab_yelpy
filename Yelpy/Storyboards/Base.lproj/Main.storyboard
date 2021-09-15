@@ -98,6 +98,7 @@
                                             <outlet property="restaurantImage" destination="6r0-Rf-xpx" id="QHC-Qk-vC6"/>
                                             <outlet property="reviewsLabel" destination="hdp-nG-8YY" id="owa-rJ-ch3"/>
                                             <outlet property="starsImage" destination="n9p-yg-WWg" id="JDS-nc-GgV"/>
+                                            <segue destination="y11-FD-lvW" kind="show" id="Rfh-a5-FMI"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -119,6 +120,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="123.88392857142857"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jYs-KZ-4J7">
+            <objects>
+                <viewController id="y11-FD-lvW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rp5-i4-yD3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="tko-by-FUk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zuP-XZ-xUD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6TJ-Lk-4bl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="923" y="124"/>
         </scene>
     </scenes>
     <resources>
